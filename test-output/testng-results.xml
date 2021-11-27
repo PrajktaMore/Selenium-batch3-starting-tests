@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52" started-at="2021-10-07T07:27:46Z" finished-at="2021-10-07T07:27:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52" started-at="2021-10-07T07:27:46Z" finished-at="2021-10-07T07:27:46Z">
+      <class name="example.TestNg_Other">
+        <test-method status="PASS" signature="second()[pri:0, instance:example.TestNg_Other@2344fc66]" name="second" duration-ms="31" started-at="2021-10-07T12:57:46Z" finished-at="2021-10-07T12:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- second -->
+        <test-method status="FAIL" signature="third()[pri:0, instance:example.TestNg_Other@2344fc66]" name="third" duration-ms="1" started-at="2021-10-07T12:57:46Z" finished-at="2021-10-07T12:57:46Z">
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method TestNg_Other.third()[pri:0, instance:example.TestNg_Other@2344fc66] should have thrown an exception of type class java.lang.ArithmeticException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method TestNg_Other.third()[pri:0, instance:example.TestNg_Other@2344fc66] should have thrown an exception of type class java.lang.ArithmeticException
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:89)
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1416)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:695)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- third -->
+      </class> <!-- example.TestNg_Other -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

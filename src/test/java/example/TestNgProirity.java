@@ -15,7 +15,7 @@ public class TestNgProirity {
 		System.out.println("f2");
 	}
 	
-	//On same priority execute alphabetically
+	//On same priority execute alphabetically of method name
 	@Test(priority=1)
 	public void third()
 	{
